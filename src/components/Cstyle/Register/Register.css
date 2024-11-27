@@ -1,0 +1,58 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.app .spot {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app .spot .wmsg {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.app .spot .ingp {
+  width: 50%;
+}
+.app .spot .ingp .inlb {
+  width: 100%;
+}
+.app .spot .ingp .inlb .infd {
+  width: 100%;
+  background: rgba(60, 60, 60, 0.5);
+  padding: 0.6rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.app .spot .bg {
+  margin: 2rem 0 0 0;
+  width: 50%;
+}
+.app .spot .bg .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.app .spot .bg .buttons .register {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.app .spot .bg .buttons .signin {
+  background: none;
+  color: rgb(255, 255, 255);
+  margin-top: 1.5rem;
+  border: none;
+  font-size: 0.75rem;
+}/*# sourceMappingURL=Register.css.map */
